@@ -1,4 +1,3 @@
-
 num = 0
 array = [1, 1, 2, 3, 5, 8]
 for i in array:
@@ -26,7 +25,23 @@ print('Привет,', name)
 
 
 def say_hi(name_user):
-    print(name_user)
+    print(type(name_user))
 
 
 say_hi(name)
+
+print(sum(array))
+
+array.append(4)
+
+array.sort()
+
+print(array)
+
+level = int(input('set number'))
+if level < -5:
+    print('Low')
+elif -5 <= level <= 5:
+    print('Mid')
+else:
+    print('High')
